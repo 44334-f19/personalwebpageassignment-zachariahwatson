@@ -1,1 +1,56 @@
 /*Personal Web Page Style Sheet */
+body {
+    margin: 0 200px 0 200px;
+    font-family: 'Roboto', sans-serif;
+}
+#header {
+    text-align: center;
+    margin: 25px;
+    background-color: gainsboro;
+    padding: 25px;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
+#flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+}
+#hobbyflex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.container {
+    flex: 5;
+    background-color: gainsboro;
+    padding: 25px;
+    margin: 25px;
+}
+img {
+    max-width: 150px;
+    height: auto;
+    align-self: center;
+    margin: 20px;
+}
+.classes li {
+    margin: 20px;
+    font-size: 25px;
+}
+#classes {
+    margin-bottom: 50px;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: darkslategrey;
+}
+a:hover {
+    font-size: 30px;
+}
